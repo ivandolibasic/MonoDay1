@@ -1,10 +1,10 @@
 ﻿namespace OOP
 {
-    public interface ICarFeatures
+    interface ICarFeatures
     {
-        public int NumberOfDoors { get; set; }
-        public bool HasSunroof { get; set; }
-        public bool HasNavigationSystem { get; set; }
-        public void StartNavigation();
+        int NumberOfDoors { get; set; }
+        bool HasSunroof { get; set; }
+        bool HasNavigationSystem { get; set; }
+        void StartNavigation();
     }
 }

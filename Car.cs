@@ -9,8 +9,14 @@ namespace OOP
         public bool HasSunroof { get; set; }
         public bool HasNavigationSystem { get; set; }
 
-        public void SetFuelTank(int fuelTank) { this.fuelTank = fuelTank; }
-        public int GetFuelTank() { return fuelTank; }
+        public void SetFuelTank(int fuelTank)
+        {
+            this.fuelTank = fuelTank;
+        }
+        public int GetFuelTank()
+        {
+            return fuelTank;
+        }
 
         public override void StartEngine()
         {
